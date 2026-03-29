@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head><title>Privacy Policy</title></head>
+<body>
+<h1>Privacy Policy</h1>
+<p>Last updated: March 2026</p>
+<p>This application does not collect, store, or share any personal 
+data from third parties. It is used solely by the owner to publish 
+content to their own TikTok account via the TikTok API.</p>
+<p>No user data is collected beyond what is required for TikTok OAuth 
+authentication of the account owner.</p>
+</body>
+</html>
+```
+
+Depois de criar os dois arquivos:
+
+1. Vá em **Settings** do repositório
+2. Menu esquerdo → **"Pages"**
+3. Em "Source" selecione **"Deploy from a branch"**
+4. Branch: **"main"**, pasta: **"/ (root)"**
+5. Clique **"Save"**
+
+Aguarde ~2 minutos e as URLs ficarão assim:
+- Terms: `https://SEU_USUARIO.github.io/fitness-pipeline-docs/terms.html`
+- Privacy: `https://SEU_USUARIO.github.io/fitness-pipeline-docs/privacy.html`
+
+Cole essas URLs no TikTok — são URLs verificáveis e o alerta vai sumir.
+
+---
+
+## 📱 Platforms — o que marcar
+
+Marque **"Web"** — é suficiente para script Python rodando local/servidor. Desktop, Android e iOS não se aplicam ao nosso caso.
+
+---
+
+## ✅ Sequência correta agora
+```
+1. Adicionar Login Kit → libera Content Posting API
+2. Adicionar Content Posting API
+3. Criar GitHub Pages com terms.html e privacy.html
+4. Colar as URLs no TikTok
+5. Marcar Platform: Web
+6. Adicionar scopes (vão aparecer novos após passo 1)
+7. Salvar sem submeter revisão
